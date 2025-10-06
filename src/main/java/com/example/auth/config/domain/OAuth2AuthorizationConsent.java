@@ -16,7 +16,6 @@ import java.io.Serializable;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@EqualsAndHashCode(callSuper = false)
 public class OAuth2AuthorizationConsent implements Serializable {
 
     @Serial
